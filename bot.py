@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import json
 import os
 
-TOKEN = os.getenv("8639281776:AAHzGnPQ-kLqc8WFPkaCr8jB4NYUnDut_yI") # Lo pondremos en Render
+TOKEN = os.getenv("TOKEN") # Lo pondremos en Render
 ID_CANAL = -1004459106029
 
 async def start(update, context):
